@@ -1,0 +1,1829 @@
+{
+  "seed": 42,
+  "device": "3. 스마트폰",
+  "model": "ailabtools-skin-analysis-pro",
+  "endpoint": "https://www.ailabapi.com/api/portrait/analysis/skin-analysis-pro",
+  "n_subjects": 165,
+  "split_counts": {
+    "Training": 144,
+    "Validation": 21
+  },
+  "created_at": "2026-09-17T11:55:33.521321+00:00",
+  "subjects": [
+    {
+      "subject_id": "0834",
+      "split": "Training",
+      "order": 1,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0834/0834_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0834/0834_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0834/0834_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0834.json"
+    },
+    {
+      "subject_id": "0142",
+      "split": "Training",
+      "order": 2,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0142/0142_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0142/0142_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0142/0142_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0142.json"
+    },
+    {
+      "subject_id": "0032",
+      "split": "Training",
+      "order": 3,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0032/0032_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0032/0032_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0032/0032_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0032.json"
+    },
+    {
+      "subject_id": "0970",
+      "split": "Training",
+      "order": 4,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0970/0970_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0970/0970_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0970/0970_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0970.json"
+    },
+    {
+      "subject_id": "0361",
+      "split": "Training",
+      "order": 5,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0361/0361_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0361/0361_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0361/0361_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0361.json"
+    },
+    {
+      "subject_id": "0322",
+      "split": "Training",
+      "order": 6,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0322/0322_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0322/0322_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0322/0322_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0322.json"
+    },
+    {
+      "subject_id": "0296",
+      "split": "Training",
+      "order": 7,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0296/0296_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0296/0296_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0296/0296_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0296.json"
+    },
+    {
+      "subject_id": "0180",
+      "split": "Training",
+      "order": 8,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0180/0180_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0180/0180_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0180/0180_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0180.json"
+    },
+    {
+      "subject_id": "0962",
+      "split": "Training",
+      "order": 9,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0962/0962_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0962/0962_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0962/0962_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0962.json"
+    },
+    {
+      "subject_id": "0132",
+      "split": "Training",
+      "order": 10,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0132/0132_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0132/0132_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0132/0132_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0132.json"
+    },
+    {
+      "subject_id": "0883",
+      "split": "Training",
+      "order": 11,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0883/0883_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0883/0883_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0883/0883_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0883.json"
+    },
+    {
+      "subject_id": "0968",
+      "split": "Training",
+      "order": 12,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0968/0968_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0968/0968_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0968/0968_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0968.json"
+    },
+    {
+      "subject_id": "0614",
+      "split": "Validation",
+      "order": 13,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0614/0614_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0614/0614_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0614/0614_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0614.json"
+    },
+    {
+      "subject_id": "0714",
+      "split": "Training",
+      "order": 14,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0714/0714_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0714/0714_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0714/0714_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0714.json"
+    },
+    {
+      "subject_id": "0114",
+      "split": "Training",
+      "order": 15,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0114/0114_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0114/0114_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0114/0114_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0114.json"
+    },
+    {
+      "subject_id": "0772",
+      "split": "Training",
+      "order": 16,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0772/0772_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0772/0772_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0772/0772_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0772.json"
+    },
+    {
+      "subject_id": "0557",
+      "split": "Training",
+      "order": 17,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0557/0557_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0557/0557_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0557/0557_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0557.json"
+    },
+    {
+      "subject_id": "0040",
+      "split": "Training",
+      "order": 18,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0040/0040_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0040/0040_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0040/0040_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0040.json"
+    },
+    {
+      "subject_id": "0038",
+      "split": "Training",
+      "order": 19,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0038/0038_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0038/0038_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0038/0038_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0038.json"
+    },
+    {
+      "subject_id": "0123",
+      "split": "Training",
+      "order": 20,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0123/0123_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0123/0123_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0123/0123_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0123.json"
+    },
+    {
+      "subject_id": "0289",
+      "split": "Training",
+      "order": 21,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0289/0289_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0289/0289_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0289/0289_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0289.json"
+    },
+    {
+      "subject_id": "0308",
+      "split": "Training",
+      "order": 22,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0308/0308_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0308/0308_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0308/0308_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0308.json"
+    },
+    {
+      "subject_id": "0663",
+      "split": "Training",
+      "order": 23,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0663/0663_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0663/0663_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0663/0663_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0663.json"
+    },
+    {
+      "subject_id": "0787",
+      "split": "Training",
+      "order": 24,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0787/0787_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0787/0787_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0787/0787_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0787.json"
+    },
+    {
+      "subject_id": "0035",
+      "split": "Training",
+      "order": 25,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0035/0035_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0035/0035_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0035/0035_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0035.json"
+    },
+    {
+      "subject_id": "0734",
+      "split": "Training",
+      "order": 26,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0734/0734_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0734/0734_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0734/0734_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0734.json"
+    },
+    {
+      "subject_id": "0263",
+      "split": "Training",
+      "order": 27,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0263/0263_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0263/0263_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0263/0263_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0263.json"
+    },
+    {
+      "subject_id": "0933",
+      "split": "Training",
+      "order": 28,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0933/0933_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0933/0933_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0933/0933_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0933.json"
+    },
+    {
+      "subject_id": "0847",
+      "split": "Training",
+      "order": 29,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0847/0847_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0847/0847_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0847/0847_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0847.json"
+    },
+    {
+      "subject_id": "0988",
+      "split": "Validation",
+      "order": 31,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0988/0988_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0988/0988_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0988/0988_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0988.json"
+    },
+    {
+      "subject_id": "0554",
+      "split": "Training",
+      "order": 32,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0554/0554_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0554/0554_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0554/0554_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0554.json"
+    },
+    {
+      "subject_id": "0293",
+      "split": "Training",
+      "order": 33,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0293/0293_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0293/0293_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0293/0293_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0293.json"
+    },
+    {
+      "subject_id": "0595",
+      "split": "Training",
+      "order": 34,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0595/0595_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0595/0595_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0595/0595_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0595.json"
+    },
+    {
+      "subject_id": "0771",
+      "split": "Training",
+      "order": 35,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0771/0771_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0771/0771_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0771/0771_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0771.json"
+    },
+    {
+      "subject_id": "0364",
+      "split": "Training",
+      "order": 36,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0364/0364_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0364/0364_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0364/0364_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0364.json"
+    },
+    {
+      "subject_id": "1064",
+      "split": "Training",
+      "order": 37,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1064/1064_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1064/1064_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1064/1064_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1064.json"
+    },
+    {
+      "subject_id": "0390",
+      "split": "Validation",
+      "order": 38,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0390/0390_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0390/0390_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0390/0390_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0390.json"
+    },
+    {
+      "subject_id": "0010",
+      "split": "Training",
+      "order": 39,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0010/0010_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0010/0010_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0010/0010_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0010.json"
+    },
+    {
+      "subject_id": "0993",
+      "split": "Training",
+      "order": 40,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0993/0993_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0993/0993_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0993/0993_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0993.json"
+    },
+    {
+      "subject_id": "1059",
+      "split": "Training",
+      "order": 41,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1059/1059_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1059/1059_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1059/1059_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1059.json"
+    },
+    {
+      "subject_id": "0208",
+      "split": "Training",
+      "order": 42,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0208/0208_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0208/0208_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0208/0208_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0208.json"
+    },
+    {
+      "subject_id": "0908",
+      "split": "Training",
+      "order": 43,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0908/0908_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0908/0908_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0908/0908_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0908.json"
+    },
+    {
+      "subject_id": "0954",
+      "split": "Validation",
+      "order": 44,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0954/0954_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0954/0954_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0954/0954_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0954.json"
+    },
+    {
+      "subject_id": "0448",
+      "split": "Training",
+      "order": 45,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0448/0448_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0448/0448_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0448/0448_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0448.json"
+    },
+    {
+      "subject_id": "0785",
+      "split": "Validation",
+      "order": 46,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0785/0785_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0785/0785_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0785/0785_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0785.json"
+    },
+    {
+      "subject_id": "0203",
+      "split": "Training",
+      "order": 47,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0203/0203_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0203/0203_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0203/0203_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0203.json"
+    },
+    {
+      "subject_id": "0286",
+      "split": "Training",
+      "order": 48,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0286/0286_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0286/0286_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0286/0286_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0286.json"
+    },
+    {
+      "subject_id": "0997",
+      "split": "Training",
+      "order": 49,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0997/0997_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0997/0997_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0997/0997_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0997.json"
+    },
+    {
+      "subject_id": "0443",
+      "split": "Training",
+      "order": 50,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0443/0443_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0443/0443_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0443/0443_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0443.json"
+    },
+    {
+      "subject_id": "1036",
+      "split": "Validation",
+      "order": 51,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/1036/1036_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/1036/1036_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/1036/1036_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1036.json"
+    },
+    {
+      "subject_id": "0122",
+      "split": "Training",
+      "order": 52,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0122/0122_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0122/0122_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0122/0122_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0122.json"
+    },
+    {
+      "subject_id": "0506",
+      "split": "Training",
+      "order": 53,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0506/0506_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0506/0506_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0506/0506_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0506.json"
+    },
+    {
+      "subject_id": "0127",
+      "split": "Training",
+      "order": 54,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0127/0127_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0127/0127_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0127/0127_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0127.json"
+    },
+    {
+      "subject_id": "0476",
+      "split": "Training",
+      "order": 55,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0476/0476_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0476/0476_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0476/0476_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0476.json"
+    },
+    {
+      "subject_id": "0111",
+      "split": "Validation",
+      "order": 56,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0111/0111_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0111/0111_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0111/0111_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0111.json"
+    },
+    {
+      "subject_id": "0455",
+      "split": "Training",
+      "order": 57,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0455/0455_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0455/0455_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0455/0455_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0455.json"
+    },
+    {
+      "subject_id": "0789",
+      "split": "Training",
+      "order": 58,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0789/0789_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0789/0789_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0789/0789_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0789.json"
+    },
+    {
+      "subject_id": "0349",
+      "split": "Training",
+      "order": 59,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0349/0349_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0349/0349_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0349/0349_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0349.json"
+    },
+    {
+      "subject_id": "1061",
+      "split": "Training",
+      "order": 60,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1061/1061_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1061/1061_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1061/1061_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1061.json"
+    },
+    {
+      "subject_id": "0054",
+      "split": "Training",
+      "order": 61,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0054/0054_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0054/0054_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0054/0054_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0054.json"
+    },
+    {
+      "subject_id": "0952",
+      "split": "Training",
+      "order": 62,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0952/0952_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0952/0952_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0952/0952_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0952.json"
+    },
+    {
+      "subject_id": "0607",
+      "split": "Training",
+      "order": 63,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0607/0607_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0607/0607_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0607/0607_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0607.json"
+    },
+    {
+      "subject_id": "0702",
+      "split": "Training",
+      "order": 64,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0702/0702_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0702/0702_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0702/0702_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0702.json"
+    },
+    {
+      "subject_id": "0158",
+      "split": "Training",
+      "order": 65,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0158/0158_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0158/0158_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0158/0158_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0158.json"
+    },
+    {
+      "subject_id": "0504",
+      "split": "Training",
+      "order": 66,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0504/0504_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0504/0504_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0504/0504_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0504.json"
+    },
+    {
+      "subject_id": "0103",
+      "split": "Training",
+      "order": 67,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0103/0103_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0103/0103_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0103/0103_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0103.json"
+    },
+    {
+      "subject_id": "0725",
+      "split": "Training",
+      "order": 68,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0725/0725_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0725/0725_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0725/0725_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0725.json"
+    },
+    {
+      "subject_id": "0384",
+      "split": "Training",
+      "order": 69,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0384/0384_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0384/0384_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0384/0384_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0384.json"
+    },
+    {
+      "subject_id": "1092",
+      "split": "Training",
+      "order": 70,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1092/1092_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1092/1092_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1092/1092_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1092.json"
+    },
+    {
+      "subject_id": "0822",
+      "split": "Training",
+      "order": 71,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0822/0822_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0822/0822_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0822/0822_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0822.json"
+    },
+    {
+      "subject_id": "0810",
+      "split": "Training",
+      "order": 72,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0810/0810_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0810/0810_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0810/0810_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0810.json"
+    },
+    {
+      "subject_id": "0277",
+      "split": "Validation",
+      "order": 73,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0277/0277_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0277/0277_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0277/0277_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0277.json"
+    },
+    {
+      "subject_id": "0480",
+      "split": "Training",
+      "order": 74,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0480/0480_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0480/0480_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0480/0480_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0480.json"
+    },
+    {
+      "subject_id": "0251",
+      "split": "Training",
+      "order": 76,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0251/0251_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0251/0251_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0251/0251_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0251.json"
+    },
+    {
+      "subject_id": "0919",
+      "split": "Training",
+      "order": 77,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0919/0919_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0919/0919_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0919/0919_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0919.json"
+    },
+    {
+      "subject_id": "0093",
+      "split": "Training",
+      "order": 78,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0093/0093_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0093/0093_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0093/0093_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0093.json"
+    },
+    {
+      "subject_id": "0057",
+      "split": "Training",
+      "order": 79,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0057/0057_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0057/0057_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0057/0057_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0057.json"
+    },
+    {
+      "subject_id": "0861",
+      "split": "Training",
+      "order": 80,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0861/0861_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0861/0861_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0861/0861_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0861.json"
+    },
+    {
+      "subject_id": "0301",
+      "split": "Training",
+      "order": 81,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0301/0301_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0301/0301_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0301/0301_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0301.json"
+    },
+    {
+      "subject_id": "1008",
+      "split": "Training",
+      "order": 82,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1008/1008_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1008/1008_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1008/1008_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1008.json"
+    },
+    {
+      "subject_id": "0377",
+      "split": "Training",
+      "order": 83,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0377/0377_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0377/0377_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0377/0377_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0377.json"
+    },
+    {
+      "subject_id": "0104",
+      "split": "Training",
+      "order": 84,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0104/0104_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0104/0104_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0104/0104_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0104.json"
+    },
+    {
+      "subject_id": "0186",
+      "split": "Validation",
+      "order": 85,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0186/0186_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0186/0186_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0186/0186_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0186.json"
+    },
+    {
+      "subject_id": "0922",
+      "split": "Validation",
+      "order": 86,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0922/0922_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0922/0922_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0922/0922_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0922.json"
+    },
+    {
+      "subject_id": "0131",
+      "split": "Training",
+      "order": 87,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0131/0131_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0131/0131_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0131/0131_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0131.json"
+    },
+    {
+      "subject_id": "0591",
+      "split": "Validation",
+      "order": 88,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0591/0591_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0591/0591_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0591/0591_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0591.json"
+    },
+    {
+      "subject_id": "0671",
+      "split": "Validation",
+      "order": 89,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0671/0671_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0671/0671_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0671/0671_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0671.json"
+    },
+    {
+      "subject_id": "0601",
+      "split": "Training",
+      "order": 90,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0601/0601_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0601/0601_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0601/0601_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0601.json"
+    },
+    {
+      "subject_id": "0830",
+      "split": "Training",
+      "order": 91,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0830/0830_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0830/0830_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0830/0830_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0830.json"
+    },
+    {
+      "subject_id": "1097",
+      "split": "Training",
+      "order": 92,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1097/1097_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1097/1097_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1097/1097_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1097.json"
+    },
+    {
+      "subject_id": "0485",
+      "split": "Training",
+      "order": 93,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0485/0485_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0485/0485_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0485/0485_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0485.json"
+    },
+    {
+      "subject_id": "0211",
+      "split": "Training",
+      "order": 94,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0211/0211_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0211/0211_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0211/0211_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0211.json"
+    },
+    {
+      "subject_id": "0493",
+      "split": "Training",
+      "order": 95,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0493/0493_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0493/0493_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0493/0493_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0493.json"
+    },
+    {
+      "subject_id": "0471",
+      "split": "Training",
+      "order": 96,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0471/0471_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0471/0471_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0471/0471_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0471.json"
+    },
+    {
+      "subject_id": "0276",
+      "split": "Training",
+      "order": 97,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0276/0276_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0276/0276_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0276/0276_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0276.json"
+    },
+    {
+      "subject_id": "0872",
+      "split": "Training",
+      "order": 98,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0872/0872_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0872/0872_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0872/0872_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0872.json"
+    },
+    {
+      "subject_id": "0352",
+      "split": "Training",
+      "order": 99,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0352/0352_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0352/0352_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0352/0352_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0352.json"
+    },
+    {
+      "subject_id": "0843",
+      "split": "Validation",
+      "order": 100,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0843/0843_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0843/0843_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0843/0843_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0843.json"
+    },
+    {
+      "subject_id": "0890",
+      "split": "Training",
+      "order": 101,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0890/0890_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0890/0890_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0890/0890_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0890.json"
+    },
+    {
+      "subject_id": "0845",
+      "split": "Training",
+      "order": 102,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0845/0845_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0845/0845_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0845/0845_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0845.json"
+    },
+    {
+      "subject_id": "0095",
+      "split": "Training",
+      "order": 103,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0095/0095_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0095/0095_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0095/0095_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0095.json"
+    },
+    {
+      "subject_id": "0798",
+      "split": "Training",
+      "order": 104,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0798/0798_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0798/0798_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0798/0798_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0798.json"
+    },
+    {
+      "subject_id": "0168",
+      "split": "Validation",
+      "order": 105,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0168/0168_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0168/0168_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0168/0168_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0168.json"
+    },
+    {
+      "subject_id": "0224",
+      "split": "Training",
+      "order": 106,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0224/0224_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0224/0224_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0224/0224_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0224.json"
+    },
+    {
+      "subject_id": "0699",
+      "split": "Training",
+      "order": 107,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0699/0699_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0699/0699_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0699/0699_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0699.json"
+    },
+    {
+      "subject_id": "0950",
+      "split": "Training",
+      "order": 108,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0950/0950_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0950/0950_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0950/0950_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0950.json"
+    },
+    {
+      "subject_id": "1056",
+      "split": "Validation",
+      "order": 109,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/1056/1056_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/1056/1056_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/1056/1056_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1056.json"
+    },
+    {
+      "subject_id": "0212",
+      "split": "Training",
+      "order": 110,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0212/0212_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0212/0212_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0212/0212_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0212.json"
+    },
+    {
+      "subject_id": "0611",
+      "split": "Training",
+      "order": 111,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0611/0611_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0611/0611_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0611/0611_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0611.json"
+    },
+    {
+      "subject_id": "0505",
+      "split": "Training",
+      "order": 112,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0505/0505_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0505/0505_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0505/0505_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0505.json"
+    },
+    {
+      "subject_id": "0355",
+      "split": "Training",
+      "order": 113,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0355/0355_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0355/0355_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0355/0355_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0355.json"
+    },
+    {
+      "subject_id": "0835",
+      "split": "Training",
+      "order": 114,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0835/0835_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0835/0835_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0835/0835_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0835.json"
+    },
+    {
+      "subject_id": "0896",
+      "split": "Training",
+      "order": 115,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0896/0896_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0896/0896_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0896/0896_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0896.json"
+    },
+    {
+      "subject_id": "0730",
+      "split": "Training",
+      "order": 116,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0730/0730_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0730/0730_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0730/0730_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0730.json"
+    },
+    {
+      "subject_id": "0292",
+      "split": "Training",
+      "order": 117,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0292/0292_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0292/0292_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0292/0292_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0292.json"
+    },
+    {
+      "subject_id": "0893",
+      "split": "Training",
+      "order": 118,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0893/0893_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0893/0893_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0893/0893_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0893.json"
+    },
+    {
+      "subject_id": "0430",
+      "split": "Training",
+      "order": 119,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0430/0430_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0430/0430_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0430/0430_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0430.json"
+    },
+    {
+      "subject_id": "1002",
+      "split": "Training",
+      "order": 120,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1002/1002_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1002/1002_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1002/1002_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1002.json"
+    },
+    {
+      "subject_id": "1011",
+      "split": "Training",
+      "order": 121,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1011/1011_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1011/1011_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1011/1011_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1011.json"
+    },
+    {
+      "subject_id": "0074",
+      "split": "Training",
+      "order": 122,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0074/0074_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0074/0074_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0074/0074_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0074.json"
+    },
+    {
+      "subject_id": "0303",
+      "split": "Training",
+      "order": 123,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0303/0303_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0303/0303_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0303/0303_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0303.json"
+    },
+    {
+      "subject_id": "1083",
+      "split": "Training",
+      "order": 124,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1083/1083_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1083/1083_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1083/1083_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1083.json"
+    },
+    {
+      "subject_id": "0951",
+      "split": "Validation",
+      "order": 125,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0951/0951_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0951/0951_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0951/0951_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0951.json"
+    },
+    {
+      "subject_id": "1058",
+      "split": "Training",
+      "order": 126,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1058/1058_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1058/1058_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1058/1058_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1058.json"
+    },
+    {
+      "subject_id": "0419",
+      "split": "Training",
+      "order": 127,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0419/0419_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0419/0419_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0419/0419_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0419.json"
+    },
+    {
+      "subject_id": "0533",
+      "split": "Training",
+      "order": 128,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0533/0533_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0533/0533_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0533/0533_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0533.json"
+    },
+    {
+      "subject_id": "0353",
+      "split": "Training",
+      "order": 129,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0353/0353_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0353/0353_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0353/0353_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0353.json"
+    },
+    {
+      "subject_id": "0086",
+      "split": "Training",
+      "order": 130,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0086/0086_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0086/0086_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0086/0086_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0086.json"
+    },
+    {
+      "subject_id": "0281",
+      "split": "Training",
+      "order": 131,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0281/0281_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0281/0281_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0281/0281_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0281.json"
+    },
+    {
+      "subject_id": "0741",
+      "split": "Training",
+      "order": 132,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0741/0741_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0741/0741_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0741/0741_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0741.json"
+    },
+    {
+      "subject_id": "0935",
+      "split": "Training",
+      "order": 133,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0935/0935_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0935/0935_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0935/0935_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0935.json"
+    },
+    {
+      "subject_id": "0416",
+      "split": "Training",
+      "order": 134,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0416/0416_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0416/0416_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0416/0416_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0416.json"
+    },
+    {
+      "subject_id": "0283",
+      "split": "Training",
+      "order": 135,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0283/0283_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0283/0283_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0283/0283_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0283.json"
+    },
+    {
+      "subject_id": "0854",
+      "split": "Training",
+      "order": 136,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0854/0854_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0854/0854_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0854/0854_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0854.json"
+    },
+    {
+      "subject_id": "0655",
+      "split": "Training",
+      "order": 137,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0655/0655_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0655/0655_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0655/0655_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0655.json"
+    },
+    {
+      "subject_id": "0526",
+      "split": "Training",
+      "order": 138,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0526/0526_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0526/0526_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0526/0526_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0526.json"
+    },
+    {
+      "subject_id": "0838",
+      "split": "Training",
+      "order": 139,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0838/0838_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0838/0838_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0838/0838_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0838.json"
+    },
+    {
+      "subject_id": "0606",
+      "split": "Training",
+      "order": 140,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0606/0606_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0606/0606_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0606/0606_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0606.json"
+    },
+    {
+      "subject_id": "0187",
+      "split": "Training",
+      "order": 141,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0187/0187_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0187/0187_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0187/0187_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0187.json"
+    },
+    {
+      "subject_id": "0350",
+      "split": "Training",
+      "order": 142,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0350/0350_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0350/0350_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0350/0350_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0350.json"
+    },
+    {
+      "subject_id": "1052",
+      "split": "Validation",
+      "order": 143,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/1052/1052_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/1052/1052_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/1052/1052_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1052.json"
+    },
+    {
+      "subject_id": "0324",
+      "split": "Training",
+      "order": 144,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0324/0324_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0324/0324_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0324/0324_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0324.json"
+    },
+    {
+      "subject_id": "0973",
+      "split": "Training",
+      "order": 145,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0973/0973_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0973/0973_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0973/0973_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0973.json"
+    },
+    {
+      "subject_id": "0898",
+      "split": "Validation",
+      "order": 146,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0898/0898_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0898/0898_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0898/0898_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0898.json"
+    },
+    {
+      "subject_id": "0705",
+      "split": "Training",
+      "order": 147,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0705/0705_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0705/0705_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0705/0705_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0705.json"
+    },
+    {
+      "subject_id": "0348",
+      "split": "Training",
+      "order": 148,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0348/0348_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0348/0348_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0348/0348_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0348.json"
+    },
+    {
+      "subject_id": "0975",
+      "split": "Training",
+      "order": 149,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0975/0975_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0975/0975_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0975/0975_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0975.json"
+    },
+    {
+      "subject_id": "0765",
+      "split": "Training",
+      "order": 150,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0765/0765_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0765/0765_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0765/0765_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0765.json"
+    },
+    {
+      "subject_id": "0567",
+      "split": "Training",
+      "order": 151,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0567/0567_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0567/0567_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0567/0567_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0567.json"
+    },
+    {
+      "subject_id": "0764",
+      "split": "Training",
+      "order": 152,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0764/0764_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0764/0764_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0764/0764_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0764.json"
+    },
+    {
+      "subject_id": "0531",
+      "split": "Training",
+      "order": 153,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0531/0531_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0531/0531_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0531/0531_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0531.json"
+    },
+    {
+      "subject_id": "0398",
+      "split": "Validation",
+      "order": 154,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0398/0398_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0398/0398_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0398/0398_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0398.json"
+    },
+    {
+      "subject_id": "1090",
+      "split": "Training",
+      "order": 155,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1090/1090_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1090/1090_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/1090/1090_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/1090.json"
+    },
+    {
+      "subject_id": "0179",
+      "split": "Training",
+      "order": 156,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0179/0179_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0179/0179_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0179/0179_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0179.json"
+    },
+    {
+      "subject_id": "0668",
+      "split": "Training",
+      "order": 157,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0668/0668_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0668/0668_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0668/0668_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0668.json"
+    },
+    {
+      "subject_id": "0649",
+      "split": "Training",
+      "order": 158,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0649/0649_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0649/0649_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0649/0649_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0649.json"
+    },
+    {
+      "subject_id": "0121",
+      "split": "Training",
+      "order": 159,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0121/0121_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0121/0121_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0121/0121_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0121.json"
+    },
+    {
+      "subject_id": "0987",
+      "split": "Training",
+      "order": 160,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0987/0987_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0987/0987_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0987/0987_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0987.json"
+    },
+    {
+      "subject_id": "0060",
+      "split": "Training",
+      "order": 161,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0060/0060_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0060/0060_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0060/0060_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0060.json"
+    },
+    {
+      "subject_id": "0140",
+      "split": "Training",
+      "order": 162,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0140/0140_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0140/0140_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0140/0140_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0140.json"
+    },
+    {
+      "subject_id": "0199",
+      "split": "Training",
+      "order": 163,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0199/0199_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0199/0199_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0199/0199_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0199.json"
+    },
+    {
+      "subject_id": "0821",
+      "split": "Training",
+      "order": 164,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0821/0821_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0821/0821_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0821/0821_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0821.json"
+    },
+    {
+      "subject_id": "0753",
+      "split": "Validation",
+      "order": 165,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0753/0753_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0753/0753_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0753/0753_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0753.json"
+    },
+    {
+      "subject_id": "0887",
+      "split": "Training",
+      "order": 166,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0887/0887_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0887/0887_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Training/01.원천데이터/3. 스마트폰/0887/0887_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0887.json"
+    },
+    {
+      "subject_id": "0675",
+      "split": "Validation",
+      "order": 167,
+      "photos": {
+        "image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0675/0675_03_F.jpg",
+        "left_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0675/0675_03_L.jpg",
+        "right_side_image": "data/028.한국인_피부상태_측정_데이터/3.개방데이터/1.데이터/Validation/01.원천데이터/3. 스마트폰/0675/0675_03_R.jpg"
+      },
+      "raw": "ailabtools/test_set/raw/0675.json"
+    }
+  ]
+}

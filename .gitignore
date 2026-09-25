@@ -1,0 +1,31 @@
+# 데이터 — 용량이 크고 얼굴 사진이라 저장소에 올리지 않는다
+# raw_data: AI Hub 원본 43GB / data: 크롭 11GB + index.csv + 정답 CSV
+raw_data/
+data/
+ailabtools/test_set/raw/
+ailabtools/test_set/raw_failed/
+
+# 비밀 정보
+.env
+*.key
+
+# 가상환경 (1.4GB, 각자 새로 만든다)
+fa-ai/
+venv/
+.venv/
+
+# 모델 가중치 — 구글에서 받는 파일 (README에 받는 명령을 적어둔다)
+data_preprocessing/models/*.task
+data_preprocessing/models/*.tflite
+
+# 학습 결과물 — fold당 112MB
+modeling/outputs/
+data_preprocessing/outputs/
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 맥
+.DS_Store
