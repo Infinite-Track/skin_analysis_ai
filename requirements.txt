@@ -1,0 +1,28 @@
+# 파이썬 3.14 기준
+#
+# NVIDIA GPU가 있는 컴퓨터라면 torch를 먼저 CUDA 버전으로 설치할 것:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements.txt
+# 맥(Apple Silicon)은 그냥 아래 그대로 설치하면 MPS가 잡힌다.
+
+# 전처리 — 랜드마크 검출, 피부 분할
+# 0.10.35 고정: 1.0.x는 macOS arm64에서 Metal 초기화 오류로 크래시한다
+mediapipe==0.10.35
+opencv-contrib-python==5.0.0.93
+numpy==2.5.3
+pillow==12.3.0
+
+# 학습
+torch==2.14.0
+torchvision==0.29.0
+timm==1.0.29
+scikit-learn==1.9.1
+scipy==1.18.1
+
+# 노트북·시각화
+matplotlib==3.11.2
+ipykernel==7.3.0
+
+# ailabtools API 호출 (비교 실험용)
+requests==2.34.2
+python-dotenv==1.2.3
