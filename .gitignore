@@ -18,8 +18,13 @@ venv/
 data_preprocessing/models/*.task
 data_preprocessing/models/*.tflite
 
-# 학습 결과물 — fold당 112MB
-modeling/outputs/
+# 학습 결과물 — 가중치는 크다 (fold당 112MB, onnx 117MB. GitHub 파일 제한은 100MB)
+# 다만 실험 기록과 배포 규격(meta.json)은 남긴다
+modeling/outputs/*
+!modeling/outputs/tuning.csv
+!modeling/outputs/deploy/
+modeling/outputs/deploy/*
+!modeling/outputs/deploy/meta.json
 data_preprocessing/outputs/
 
 # 파이썬

@@ -1,0 +1,142 @@
+{
+  "version": "2026-09-25",
+  "tasks": [
+    "pore_count",
+    "pore_grade",
+    "wrinkle_grade",
+    "wrinkle_ra",
+    "pigment_grade",
+    "acne_count",
+    "age"
+  ],
+  "regions": [
+    "forehead",
+    "glabella",
+    "l_eye",
+    "r_eye",
+    "l_cheek",
+    "r_cheek"
+  ],
+  "stats": {
+    "pore_count": {
+      "mean": 6.660103401354608,
+      "std": 0.6618573600835147,
+      "log": true,
+      "regions": [
+        "l_cheek",
+        "r_cheek"
+      ]
+    },
+    "pore_grade": {
+      "mean": 2.039116719242902,
+      "std": 0.845688550932245,
+      "log": false,
+      "regions": [
+        "l_cheek",
+        "r_cheek"
+      ]
+    },
+    "wrinkle_grade": {
+      "mean": 2.2828759050345178,
+      "std": 1.7400896098772507,
+      "log": false,
+      "regions": [
+        "forehead",
+        "glabella",
+        "l_eye",
+        "r_eye"
+      ]
+    },
+    "wrinkle_ra": {
+      "mean": 21.904577100319035,
+      "std": 5.547721345094933,
+      "log": false,
+      "regions": [
+        "l_eye",
+        "r_eye"
+      ]
+    },
+    "pigment_grade": {
+      "mean": 1.941535226077813,
+      "std": 1.217100966191048,
+      "log": false,
+      "regions": [
+        "forehead",
+        "l_cheek",
+        "r_cheek"
+      ]
+    },
+    "acne_count": {
+      "mean": 0.32266846566902385,
+      "std": 0.5729690565656322,
+      "log": true,
+      "regions": [
+        "forehead",
+        "l_cheek",
+        "r_cheek"
+      ]
+    },
+    "age": {
+      "mean": 41.87616642880668,
+      "std": 16.04700772360045,
+      "log": false,
+      "regions": [
+        "forehead",
+        "glabella",
+        "l_eye",
+        "r_eye",
+        "l_cheek",
+        "r_cheek"
+      ]
+    }
+  },
+  "input": {
+    "canvas": {
+      "forehead": [
+        608,
+        288
+      ],
+      "glabella": [
+        192,
+        160
+      ],
+      "l_eye": [
+        192,
+        224
+      ],
+      "r_eye": [
+        192,
+        224
+      ],
+      "l_cheek": [
+        512,
+        576
+      ],
+      "r_cheek": [
+        512,
+        576
+      ]
+    },
+    "target_face_height": 900,
+    "mirror_right": true,
+    "pixel_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "pixel_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "mask_fill": 0
+  },
+  "train": {
+    "backbone": "convnext_tiny.fb_in22k_ft_in1k",
+    "views": [
+      "F"
+    ],
+    "epochs": 15,
+    "checkpoint": "fold_test.pt"
+  }
+}
