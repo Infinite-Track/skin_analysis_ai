@@ -3,7 +3,7 @@
 공유 백본(ConvNeXt) 하나 + 항목별 헤드 여러 개.
 전역 평균 풀링 덕분에 부위마다 입력 크기가 달라도 항상 768개 특징이 나오고,
 헤드는 그 768개를 각자의 숫자(모공 개수, 주름 등급, 나이 ...)로 바꾼다.
-헤드는 백본의 0.7%라, 항목을 늘려도 계산 비용은 거의 그대로다.
+헤드 하나는 백본의 0.7%라, 항목을 늘려도 계산 비용은 거의 그대로다.
 
 하이퍼파라미터는 전부 생성자 인자다. 노트북에서 값만 바꿔 실험하면 된다.
 """
@@ -51,7 +51,7 @@ class SkinModel(nn.Module):
     def _freeze(self, stages):
         """앞쪽 단계는 경계·질감을 잡는 부분이라 ImageNet 가중치를 그대로 쓴다 (과적합 방지)."""
         for param in self.backbone.stem.parameters():
-            param.requires_grad = False
+            param.requires_grad = False 
         for stage in self.backbone.stages[:stages]:
             for param in stage.parameters():
                 param.requires_grad = False

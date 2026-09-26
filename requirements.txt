@@ -26,3 +26,9 @@ ipykernel==7.3.0
 # ailabtools API 호출 (비교 실험용)
 requests==2.34.2
 python-dotenv==1.2.3
+
+# 배포용 ONNX 내보내기·검증 (train.ipynb D)
+# torch 2.9부터 torch.onnx.export가 onnxscript를 쓴다
+onnx==1.23.0
+onnxscript==0.7.2
+onnxruntime==1.30.0

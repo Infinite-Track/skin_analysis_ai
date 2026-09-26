@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-25",
+  "version": "2026-09-26",
   "tasks": [
     "pore_count",
     "pore_grade",
@@ -19,8 +19,8 @@
   ],
   "stats": {
     "pore_count": {
-      "mean": 6.660103401354608,
-      "std": 0.6618573600835147,
+      "mean": 6.662256616885094,
+      "std": 0.6584917719597667,
       "log": true,
       "regions": [
         "l_cheek",
@@ -28,8 +28,8 @@
       ]
     },
     "pore_grade": {
-      "mean": 2.039116719242902,
-      "std": 0.845688550932245,
+      "mean": 2.0339116719242902,
+      "std": 0.8319060428452489,
       "log": false,
       "regions": [
         "l_cheek",
@@ -37,8 +37,8 @@
       ]
     },
     "wrinkle_grade": {
-      "mean": 2.2828759050345178,
-      "std": 1.7400896098772507,
+      "mean": 2.2295956648603585,
+      "std": 1.7217848359110872,
       "log": false,
       "regions": [
         "forehead",
@@ -48,8 +48,8 @@
       ]
     },
     "wrinkle_ra": {
-      "mean": 21.904577100319035,
-      "std": 5.547721345094933,
+      "mean": 21.83688872497365,
+      "std": 5.6070908519829885,
       "log": false,
       "regions": [
         "l_eye",
@@ -57,8 +57,8 @@
       ]
     },
     "pigment_grade": {
-      "mean": 1.941535226077813,
-      "std": 1.217100966191048,
+      "mean": 1.8190626408292023,
+      "std": 1.206085973521925,
       "log": false,
       "regions": [
         "forehead",
@@ -67,8 +67,8 @@
       ]
     },
     "acne_count": {
-      "mean": 0.32266846566902385,
-      "std": 0.5729690565656322,
+      "mean": 0.3452720916834603,
+      "std": 0.5994546741556293,
       "log": true,
       "regions": [
         "forehead",
@@ -77,8 +77,8 @@
       ]
     },
     "age": {
-      "mean": 41.87616642880668,
-      "std": 16.04700772360045,
+      "mean": 41.936544208120935,
+      "std": 16.165159245512807,
       "log": false,
       "regions": [
         "forehead",
@@ -134,9 +134,11 @@
   "train": {
     "backbone": "convnext_tiny.fb_in22k_ft_in1k",
     "views": [
-      "F"
+      "F",
+      "L",
+      "R"
     ],
     "epochs": 15,
-    "checkpoint": "fold_test.pt"
+    "checkpoint": "fold0.pt"
   }
 }
